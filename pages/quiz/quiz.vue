@@ -2,7 +2,7 @@
   <div class="flex justify-center item-center max-w-full min-h-screen h-full bg-blue-700">
     <div class="grid table-row w-1/2 h-16 p-12">
       <div class="flex justify-between rounded-t-sm bg-white shadow-lg z-1">
-        <div class="flex items-center pl-8 pr-8 ">
+        <div class="flex items-center container p-2 pl-8 pr-8 ">
           <h4>
             Welcome!
             <span class="name"></span>
