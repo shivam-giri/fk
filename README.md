@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # fk
 
 ## Build Setup
@@ -18,3 +19,6 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+=======
+# fk
+>>>>>>> 2b6a13ecead6b9e1dbc393bbe721d1316421d15c
