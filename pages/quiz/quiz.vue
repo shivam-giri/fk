@@ -10,31 +10,33 @@
         </div>
       </div>
       <!-- questions area  -->
-      <div class="p-4 pl-6 pr-6 bg-gray-300">
-        <h3 class="pb-1 text-4xl font-black">Q) What is Full Form of Ram?</h3>
+      <div class="p-5 pl-10 bg-gray-300">
+        <h3 class="pb-4 text-3xl font-black">Q) What is Full Form of Ram?</h3>
         <div>
-          <div class="block w-1/3 p-2 pl-5 mb-5 ml-3 bg-white border-2 shadow-lg rounded-3xl">
+          <div class="block w-1/3 p-3 pl-5 mb-5 ml-3 bg-white border-2 shadow-lg rounded-3xl">
             <button>
               <p>Random Assess Memory</p>
             </button>
           </div>
-          <div class="block w-1/3 p-2 pl-5 mb-5 ml-3 bg-white border-2 shadow-lg rounded-3xl">
+          <div class="block w-1/3 p-3 pl-5 mb-5 ml-3 bg-white border-2 shadow-lg rounded-3xl">
             <button>
               <p>Random Assess Memory</p>
             </button>
           </div>
-          <div class="block w-1/3 p-2 pl-5 mb-5 ml-3 bg-white border-2 shadow-lg rounded-3xl">
+          <div class="block w-1/3 p-3 pl-5 mb-5 ml-3 bg-white border-2 shadow-lg rounded-3xl">
             <button>
               <p>Random Assess Memory</p>
             </button>
           </div>
-          <div class="block w-1/3 p-2 pl-5 mb-5 ml-3 bg-white border-2 shadow-lg rounded-3xl">
+          <div class="block w-1/3 p-3 pl-5 mb-5 ml-3 bg-white border-2 shadow-lg rounded-3xl">
             <button>
               <p>Random Assess Memory</p>
             </button>
           </div>
-          <div class="block w-1/4 p-2 mb-5 bg-blue-800 border-2 shadow-lg rounded-3xl">
-            <button class="p-2 ml-2 font-bold text-white" @click="go()">Next Question</button>
+          <div class="block w-1/4 p-2 mb-5 ml-4 bg-blue-800 border-2 shadow-lg rounded-3xl">
+            <nuxt-link to="/quiz/end">
+              <button class="p-2 ml-5 font-bold text-white" @click="go()">Next Question</button>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -48,7 +50,9 @@
 export default {
   methods:{
     go(){
-      this.$router.push('/')
+      // this.$router.push('/end')
+      <nuxt-link to = "/quiz/end"></nuxt-link>
+
     }
   }
 }
