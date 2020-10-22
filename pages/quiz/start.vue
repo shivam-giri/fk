@@ -1,6 +1,11 @@
 <template>
   <div class="flex justify-center h-full max-w-full min-h-screen bg-blue-700 item-center">
     <div class="pt-20">
+      <div>
+        <h1
+          class="font-serif text-4xl text-center text-gray-800 divide-purple-900 animate-bounce animate-pulse"
+        >Welcome To "Qwiz World" !!</h1>
+      </div>
       <form
         class="container block p-5 mt-20 text-3xl text-white transition duration-300 ease-in-out transform cursor-pointer rounded-3xl motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110"
         name="welcome_form"
