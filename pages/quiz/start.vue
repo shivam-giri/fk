@@ -1,21 +1,25 @@
 <template>
-
-  <div class="flex justify-center item-center max-w-full min-h-screen h-full bg-blue-700">
-      <div class="pt-20">
-        <form
-          class=" block container p-5 rounded-3xl text-white text-3xl cursor-pointer transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300"
-          name="welcome_form"
-          onsubmit="submitForm(event)"
-        >
-          <input class="block container p-4 text-center px-4 py-2 outline-none rounded-3xl" type="text" name="name" placeholder="Enter Your Name"/>
-          <nuxt-link to = "/quiz/quiz">
-          <button class="block container bg-blue-300 p-4 mt-4 rounded-3xl text-white text-3xl cursor-pointer transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300">Start Quiz</button>
-          </nuxt-link>
-        </form>
-      </div>
+  <div class="flex justify-center h-full max-w-full min-h-screen bg-blue-700 item-center">
+    <div class="pt-20">
+      <form
+        class="container block p-5 mt-20 text-3xl text-white transition duration-300 ease-in-out transform cursor-pointer rounded-3xl motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110"
+        name="welcome_form"
+        onsubmit="submitForm(event)"
+      >
+        <input
+          class="container block p-4 px-4 py-2 text-center outline-none rounded-3xl"
+          type="text"
+          name="name"
+          placeholder="Enter Your Name"
+        />
+        <nuxt-link to="/quiz/quiz">
+          <button
+            class="container block p-4 mt-4 text-3xl text-white transition duration-300 ease-in-out transform bg-blue-900 cursor-pointer rounded-3xl motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110"
+          >Start Quiz</button>
+        </nuxt-link>
+      </form>
     </div>
-
-
+  </div>
 </template>
 
 <script>
